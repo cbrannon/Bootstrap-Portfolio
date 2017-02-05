@@ -3,6 +3,21 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
 .mtop {
   margin-top: 120px;
 }
@@ -22,26 +37,27 @@ nav {
   line-height: 75px;
 }
 
-html,
-body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
+.logo-block {
+  width: 100%;
+  height: 50px;
+  margin: 0 7px 10px 0;
+  background-size: cover;
 }
 
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by it's height */
-  margin: 0 auto -60px;
+#bio {
+  line-height: 30px;
+  margin-top: -10px;
 }
+
 
 /* Set the fixed height of the footer here */
 #push,
 #footer {
   height: 106px;
-  line-height: 106px;
+}
+
+#footer {
+  padding-top: 45px;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -98,4 +114,53 @@ border-bottom: 2px solid #cccccc;
   background-repeat: repeat;
   overflow: hidden;
   height: 100vh;
+}
+
+#profilepic {
+  width: 250px;
+  margin: 0 20px 0 0;
+}
+
+#github {
+  background-image: url("../images/github_square_black.png");
+}
+
+#github:hover {
+  background-image: url("../images/github_square_white.png");
+}
+
+#linkedin {
+  background-image: url("../images/linkedin_square_color.png");
+}
+
+#linkedin:hover {
+  background-image: url("../images/linkedin_square_white.png");
+}
+
+#overflow {
+  background-image: url("../images/overflow.png");
+}
+
+#overflow:hover {
+  background-image: url("../images/overflow-white.png");
+}
+
+#hangman {
+  background-image: url("../images/meow1.jpg");
+}
+
+#rpggame {
+  background-image: url("../images/meow2.jpg");
+}
+
+#triviagame {
+  background-image: url("../images/meow3.jpg");
+}
+
+#rutgersinfo {
+  background-image: url("../images/meow4.jpg");
+}
+
+#rockpaperscissors {
+  background-image: url("../images/meow5.jpg");
 }
