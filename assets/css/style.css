@@ -1,0 +1,53 @@
+/******* Size and Spacing ********/
+* {
+  padding: 0;
+}
+
+.mtop {
+  margin-top: 100px;
+}
+
+nav {
+  height: 77px;
+}
+
+.title {
+  font-size: 24px;
+  margin-top: 0;
+  height: 75px;
+  line-height: 75px;
+}
+
+/******** Color Styles *********/
+.teal-background {
+  background-color: #4aaaa5;
+}
+
+.teal-text {
+  color: #4aaaa5;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.bottom-border {
+  border-bottom: 2px solid #cccccc;
+}
+
+/********* Fonts and Text Formatting ************/
+.serif {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/******* Images and Background Images ********/
+.background {
+  background: url(../images/ignasi_pattern_s.png);
+  background-repeat: repeat;
+  overflow: hidden;
+  height: 100vh;
+}
