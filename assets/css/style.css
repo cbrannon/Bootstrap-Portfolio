@@ -4,10 +4,23 @@ html {
   min-height: 100%;
 }
 
+html, body {
+  background: url(../images/ignasi_pattern_s.png) repeat center center;
+}
+
 body {
   /* Margin bottom by footer height */
+  min-height: 100%;
   margin-bottom: 106px;
+}
+
+.title, .tag,
+.footer, .portfolio-image {
   width: 100%;
+}
+
+.nav-container {
+  margin-bottom: 40px;
 }
 
 nav {
@@ -15,17 +28,18 @@ nav {
   margin-bottom: 0 !important;
 }
 
-.ntop {
+.navlink {
+  text-decoration: none;
   margin-top: 20px;
+  height: 30px;
 }
 
-.mtop {
+.maintop {
   margin-top: 40px;
 }
 
 .title {
-  width: 100%;
-  min-width: 250px;
+  min-width: 222px;
 }
 
 .title, .nav-items {
@@ -34,12 +48,8 @@ nav {
   line-height: 75px;
 }
 
-.nav-items {
-  height: 75px;
-}
-
 .page-header {
-  margin: -10px auto 30px;
+  margin: -10px auto 20px;
 }
 
 .logos div:nth-child(even) {
@@ -56,25 +66,57 @@ nav {
 }
 
 #bio {
-  line-height: 30px;
   margin-top: -10px;
+}
+
+#profilepic {
+  width: 200px;
+  margin: 0 20px 0 0;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.portfolio-item {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100% !important;
+}
+
+.tag {
+  position: absolute;
+  margin-top: 55%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagtext {
+  position: absolute;
+}
+
+textarea {
+  max-width: 100%;
+  min-height: 150px;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
   /* Set the fixed height of the footer here */
   height: 106px;
+  line-height: 90px;
 }
 
 /******** Color Styles *********/
 .teal-background {
-background-color: #4aaaa5;
+  background-color: #4aaaa5;
 }
 
 .teal-text {
-color: #4aaaa5;
+  color: #4aaaa5;
 }
 
 .grey-text {
@@ -82,11 +124,11 @@ color: #4aaaa5;
 }
 
 .white-background {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .white-text {
-color: #ffffff;
+  color: #ffffff;
 }
 
 .bottom-border {
@@ -99,12 +141,25 @@ color: #ffffff;
   border-right: 2px solid #cccccc;
 }
 
+h5:hover {
+  color: #4aaaa5;
+}
+
+.portfolio-item:hover .tag {
+  background-color: #fff;
+  color: #4aaaa5;
+}
+
 .footer {
   background-color: #666666;
   border-top: 6px solid #4aaaa5;
 }
 
 /********* Fonts and Text Formatting ************/
+a {
+  text-decoration: none !important;
+}
+
 .serif {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -117,23 +172,7 @@ color: #ffffff;
   font-size: 30px;
 }
 
-h5 {
-  font-size: 16px;
-  font-weight: normal;
-}
-
-.footer {
-  line-height: 90px;
-}
-
 /******* Images and Background Images ********/
 .main-content {
-  background: url(../images/ignasi_pattern_s.png);
-  background-repeat: repeat;
   overflow: hidden;
-}
-
-#profilepic {
-  width: 200px;
-  margin: 0 20px 0 0;
 }
