@@ -28,22 +28,31 @@ nav {
   min-width: 250px;
 }
 
-.nav-item {
+.title, .nav-items {
   margin-top: 0;
   height: 75px;
   line-height: 75px;
+}
+
+.nav-items {
+  height: 75px;
 }
 
 .page-header {
   margin: -10px auto 30px;
 }
 
-.sidebar {
-  min-height: 100%;
+.logos div:nth-child(even) {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.logos {
-  margin: 0 7px 10px 0;
+.logos div:first-child {
+  padding-right: 5px;
+}
+
+.logos div:last-child {
+  padding-left: 5px;
 }
 
 #bio {
@@ -81,7 +90,6 @@ color: #ffffff;
 }
 
 .bottom-border {
-  border: 0;
   border-radius: 0;
   border-bottom: 2px solid #cccccc;
 }
@@ -126,6 +134,6 @@ h5 {
 }
 
 #profilepic {
-  width: 250px;
+  width: 200px;
   margin: 0 20px 0 0;
 }
