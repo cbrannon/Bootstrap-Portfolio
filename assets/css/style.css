@@ -10,14 +10,6 @@ body {
   width: 100%;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 106px;
-}
-
 nav {
   height: 77px;
   margin-bottom: 0 !important;
@@ -38,7 +30,7 @@ nav {
 
 .nav-item {
   margin-top: 0;
-  height: 77px;
+  height: 75px;
   line-height: 75px;
 }
 
@@ -50,17 +42,21 @@ nav {
   min-height: 100%;
 }
 
-.logo-block {
-  min-width: 50px;
-  height: 50px;
-  min-height: 50px;
+.logos {
   margin: 0 7px 10px 0;
-  background-size: cover;
 }
 
 #bio {
   line-height: 30px;
   margin-top: -10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 106px;
 }
 
 /******** Color Styles *********/
@@ -123,7 +119,7 @@ h5 {
 }
 
 /******* Images and Background Images ********/
-.background {
+.main-content {
   background: url(../images/ignasi_pattern_s.png);
   background-repeat: repeat;
   overflow: hidden;
@@ -132,48 +128,4 @@ h5 {
 #profilepic {
   width: 250px;
   margin: 0 20px 0 0;
-}
-
-#github {
-  background-image: url("../images/github_square_black.png");
-}
-
-#github:hover {
-  background-image: url("../images/github_square_white.png");
-}
-
-#linkedin {
-  background-image: url("../images/linkedin_square_color.png");
-}
-
-#linkedin:hover {
-  background-image: url("../images/linkedin_square_white.png");
-}
-
-#overflow {
-  background-image: url("../images/overflow.png");
-}
-
-#overflow:hover {
-  background-image: url("../images/overflow-white.png");
-}
-
-#hangman {
-  background-image: url("../images/meow1.jpg");
-}
-
-#rpggame {
-  background-image: url("../images/meow2.jpg");
-}
-
-#triviagame {
-  background-image: url("../images/meow3.jpg");
-}
-
-#rutgersinfo {
-  background-image: url("../images/meow4.jpg");
-}
-
-#rockpaperscissors {
-  background-image: url("../images/meow5.jpg");
 }
