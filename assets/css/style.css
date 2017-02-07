@@ -1,19 +1,13 @@
 /******* Size and Spacing ********/
-* {
-  padding: 0;
-}
-
-.npad {
-  padding: 0;
-}
-
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 106px;
+  width: 100%;
 }
 
 .footer {
@@ -29,8 +23,12 @@ nav {
   margin-bottom: 0 !important;
 }
 
-.mtop {
+.ntop {
   margin-top: 20px;
+}
+
+.mtop {
+  margin-top: 40px;
 }
 
 .title {
@@ -40,7 +38,7 @@ nav {
 
 .nav-item {
   margin-top: 0;
-  height: 75px;
+  height: 77px;
   line-height: 75px;
 }
 
@@ -48,9 +46,14 @@ nav {
   margin: -10px auto 30px;
 }
 
+.sidebar {
+  min-height: 100%;
+}
+
 .logo-block {
-  width: 100%;
+  min-width: 50px;
   height: 50px;
+  min-height: 50px;
   margin: 0 7px 10px 0;
   background-size: cover;
 }
@@ -83,7 +86,13 @@ color: #ffffff;
 
 .bottom-border {
   border: 0;
+  border-radius: 0;
   border-bottom: 2px solid #cccccc;
+}
+
+.sborders {
+  border-left: 2px solid #cccccc;
+  border-right: 2px solid #cccccc;
 }
 
 .footer {
@@ -106,6 +115,7 @@ color: #ffffff;
 
 h5 {
   font-size: 16px;
+  font-weight: normal;
 }
 
 .footer {
