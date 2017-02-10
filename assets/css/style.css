@@ -106,7 +106,6 @@ textarea {
   position: absolute;
   bottom: 0;
   /* Set the fixed height of the footer here */
-  height: 106px;
   line-height: 90px;
 }
 
@@ -129,6 +128,10 @@ textarea {
 
 .white-text {
   color: #ffffff;
+}
+
+.border-reset  {
+  border: 0;
 }
 
 .bottom-border {
